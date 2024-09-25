@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   run-shell-command:
-    runs-on: ubuntu
+    runs-on: ubuntu-24.04
     steps:
       - name: Echo a string
         run: echo "good job"         
