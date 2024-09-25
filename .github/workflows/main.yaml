@@ -1,0 +1,9 @@
+name: first flow
+on: [push]
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu
+    steps:
+      - name: Echo a string
+        run: echo "good job"         
